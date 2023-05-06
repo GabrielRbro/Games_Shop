@@ -11,6 +11,20 @@ header{
 
 }
 
+header,
+section h2{
+    font-family: 'Bungee', cursive;
+}
+
+header h1,
+section h2{
+    font-weight: normal;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header nav li{
     display: inline;
     margin-left: 16px;
@@ -19,7 +33,7 @@ header nav li{
 header nav li a{
     color: #ecf0f1;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .container{
@@ -28,8 +42,39 @@ header nav li a{
     margin: 0 auto;
 }
 
-header .container{
+header .container,
+section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.brand-list img{
+    height: 24px;
+}
+
+.brand-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0px;
+    color: #182c61;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
 }
